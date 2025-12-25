@@ -1,1 +1,132 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cheikh Tidiane THIAM — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <div id="site-wrapper">
+    <!-- Header -->
+    <header id="site-header">
+      <div class="inner">
+        <a class="brand" href="#">Cheikh Tidiane THIAM</a>
+        <button id="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+        <nav id="top-nav" class="desktop-only">
+          <a href="#home">Accueil</a>
+          <a href="#projects">Projets</a>
+          <a href="#about">À propos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
+    <!-- Mobile menu -->
+    <nav id="mobile-menu" class="hidden">
+      <a href="#home">Accueil</a>
+      <a href="00-cv.html">Mon CV</a>
+      <hr />
+      <h3>Projets</h3>
+      <ul>
+        <li><a href="01-preparer-des-donnees.html">Préparer des données (EDA)</a></li>
+        <li><a href="02-anticiper-la-consommation.html">Prédire consommation</a></li>
+        <li><a href="03-segmenter-des-clients.html">Segmenter clients</a></li>
+        <!-- Ajoutez/éditez les liens de projets ici -->
+      </ul>
+      <hr />
+      <div class="socials">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Twitter</a>
+      </div>
+      <button id="menu-close" aria-label="Fermer le menu">Fermer</button>
+    </nav>
+
+    <!-- Main -->
+    <main id="home">
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <h1>Cheikh Tidiane THIAM</h1>
+            <p>Data scientist / Ingénieur ML — je construis des modèles et des pipelines qui transforment les données en produits utiles.</p>
+            <p class="cta">
+              <a class="btn" href="#projects">Voir mes projets</a>
+              <a class="btn btn-outline" href="00-cv.html">Mon CV</a>
+            </p>
+          </div>
+          <div class="hero-image">
+            <img src="assets/images/avatar-placeholder.png" alt="Avatar" />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container">
+        <h2>Projets</h2>
+        <div class="tiles">
+          <article class="tile">
+            <img src="assets/images/vignette1.jpg" alt="" />
+            <div class="tile-body">
+              <h3>Préparer des données et EDA</h3>
+              <p>Nettoyage, imputation, PCA et analyses exploratoires pour pipelines ML.</p>
+              <p class="tags"><span>Data cleaning</span><span>EDA</span><span>PCA</span></p>
+              <a class="link" href="01-preparer-des-donnees.html">Voir le projet →</a>
+            </div>
+          </article>
+
+          <article class="tile">
+            <img src="assets/images/vignette2.jpg" alt="" />
+            <div class="tile-body">
+              <h3>Prédiction consommation & émissions</h3>
+              <p>Modèles supervisés, optimisation d'hyperparamètres et évaluation.</p>
+              <p class="tags"><span>Supervised</span><span>Grid Search</span></p>
+              <a class="link" href="02-anticiper-la-consommation.html">Voir le projet →</a>
+            </div>
+          </article>
+
+          <article class="tile">
+            <img src="assets/images/vignette3.jpg" alt="" />
+            <div class="tile-body">
+              <h3>Segmentation clients e‑commerce</h3>
+              <p>Clustering et profiles utilisateurs pour recommandations marketing.</p>
+              <p class="tags"><span>Clustering</span><span>Unsupervised</span></p>
+              <a class="link" href="03-segmenter-des-clients.html">Voir le projet →</a>
+            </div>
+          </article>
+
+          <!-- Dupliquez/éditez les vignettes pour ajouter d'autres projets -->
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h2>À propos</h2>
+        <p>Brève bio — compétences : Python, Pandas, Scikit‑Learn, TensorFlow, Spark, déploiement (Docker, CI/CD).</p>
+        <ul class="skill-list">
+          <li>Machine Learning</li><li>Data Engineering</li><li>ML Ops</li><li>Visualization</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me joindre par e‑mail : <a href="mailto:cheikhtidianethiam94@gmail.com">cheikhtidianethiam94@gmail.com</a></p>
+        <div class="socials-row">
+          <a href="#" target="_blank">GitHub</a>
+          <a href="#" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+      <div class="inner">
+        <p>© <span id="year"></span> Cheikh Tidiane — Portfolio</p>
+        <p class="small">Design, créé pour Cheikh Tidiane</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
